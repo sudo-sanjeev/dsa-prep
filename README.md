@@ -1,32 +1,25 @@
 # DSA Prep — Striver's A2Z Sheet
 
-Tracking progress on [Striver's A2Z DSA Sheet](https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z) — a structured course to learn DSA from A to Z.
+Tracking progress on [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/) — **338** problems across **11** topics.
 
 ## Progress Overview
 
-| Section | Topic | Progress | Total |
-|---------|-------|----------|-------|
-| 01 | Learn the basics | 0 | 31 |
-| 02 | Sorting Techniques | 0 | 7 |
-| 03 | Arrays | 0 | 40 |
-| 04 | Binary Search | 0 | 32 |
-| 05 | Strings | 0 | 15 |
-| 06 | Linked List | 0 | 31 |
-| 07 | Recursion | 0 | 25 |
-| 08 | Bit Manipulation | 0 | 18 |
-| 09 | Stack and Queues | 0 | 30 |
-| 10 | Sliding Window & Two Pointer | 0 | 12 |
-| 11 | Heaps | 0 | 17 |
-| 12 | Greedy Algorithms | 0 | 16 |
-| 13 | Binary Trees | 0 | 39 |
-| 14 | Binary Search Trees | 0 | 16 |
-| 15 | Graphs | 0 | 53 |
-| 16 | Dynamic Programming | 0 | 56 |
-| 17 | Tries | 0 | 7 |
-| 18 | Strings (Advanced) | 0 | 9 |
-| | **Total** | **0** | **454** |
+| #  | Topic               | Progress | Total | Problems                                        |
+| -- | ------------------- | -------- | ----- | ----------------------------------------------- |
+| 01 | Binary Search       | 0        | 33    | [View](./01-binary-search/README.md)            |
+| 02 | Linked List         | 0        | 31    | [View](./02-linked-list/README.md)              |
+| 03 | Recursion           | 0        | 30    | [View](./03-recursion/README.md)                |
+| 04 | Stack and Queues    | 0        | 30    | [View](./04-stack-and-queues/README.md)         |
+| 05 | Sliding Window      | 0        | 13    | [View](./05-sliding-window/README.md)           |
+| 06 | Heaps               | 0        | 17    | [View](./06-heaps/README.md)                    |
+| 07 | Greedy Algorithms   | 0        | 16    | [View](./07-greedy/README.md)                   |
+| 08 | Binary Trees        | 0        | 39    | [View](./08-binary-trees/README.md)             |
+| 09 | Binary Search Trees | 0        | 16    | [View](./09-binary-search-trees/README.md)      |
+| 10 | Graphs              | 0        | 54    | [View](./10-graphs/README.md)                   |
+| 11 | Dynamic Programming | 0        | 59    | [View](./11-dynamic-programming/README.md)      |
+|    | **Total**           | **0**    | **338** |                                               |
 
-**Difficulty breakdown:** Easy (134) · Medium (183) · Hard (137)
+> **Omitted:** Basics (31), Sorting (7), Arrays (40), Strings (15), Bit Manipulation (18), Tries (7), Strings Advanced (9).
 
 ## Resources
 
