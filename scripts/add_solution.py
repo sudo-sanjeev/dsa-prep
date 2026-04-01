@@ -117,12 +117,20 @@ def pick_target(matches: list[tuple[str, dict]]) -> tuple[Path, int | None]:
         assert slug
         by_slug[(t, slug.lower())] = (t, r)
     if len(by_slug) > 1:
-        msg = "\n".join(
-            f"  {t}  {leetcode_slug_from_url(r['leetcode_url'])}  {r['problem'][:50]}"
-            for t, r in sorted(by_slug.values(), key=lambda x: (x[0], x[1]["problem"]))
-        )
-        raise SystemExit("Ambiguous match; use --slug or --topic:\n" + msg)
-    t, r = next(iter(by_slug.values()))
+        vals = list(by_slug.values())
+        slugs = {leetcode_slug_from_url(r["leetcode_url"]).lower() for t, r in vals}
+        nums = {leetcode_num_from_title(r["leetcode_title"]) for t, r in vals}
+        # Same problem listed under multiple topic folders (e.g. 206 in linked-list + recursion).
+        if len(slugs) == 1 and len(nums) == 1 and None not in nums:
+            t, r = min(vals, key=lambda tr: tr[0])
+        else:
+            msg = "\n".join(
+                f"  {t}  {leetcode_slug_from_url(r['leetcode_url'])}  {r['problem'][:50]}"
+                for t, r in sorted(vals, key=lambda x: (x[0], x[1]["problem"]))
+            )
+            raise SystemExit("Ambiguous match; use --slug or --topic:\n" + msg)
+    else:
+        t, r = next(iter(by_slug.values()))
     slug = leetcode_slug_from_url(r["leetcode_url"])
     assert slug
     lc = leetcode_num_from_title(r["leetcode_title"])

@@ -1,30 +1,48 @@
-class Solution {
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+ class Solution {
     public:
-    
-        bool check(long long m,vector<int>& piles,long long h) {
-            long long count=0;
-            for(auto a:piles) {
-                count+=(a+m-1)/m;
+        ListNode* reverseList(ListNode* head) {
+            ListNode* prev=NULL;
+            while(head) {
+                ListNode* next=head->next;
+                head->next=prev;
+                prev=head;
+                head=next;
             }
-            return count<=h;
+            return prev;
         }
+    };
     
-        int minEatingSpeed(vector<int>& piles, int h) {
-            long long low=1,high=1;
-            for(auto a:piles) {
-                high=max(high,1LL*a);
+    class Solution {
+    public:
+        ListNode* reverseList(ListNode* head) {
+            if(!head)return NULL;
+            stack<ListNode*>st;
+    
+            while(head) {
+                st.push(head);
+                head=head->next;
             }
-            long long ans=high;
-            while(low<=high) {
-                long long mid=(low+high)/2;
-    
-                if(check(mid,piles,h)) {
-                    ans=mid;
-                    high=mid-1;
+            ListNode* tail=st.top();
+     
+            while(st.size()) {
+                ListNode* top=st.top();
+                st.pop();
+                if(st.size()) {
+                    top->next=st.top();
                 } else {
-                    low=mid+1;
+                    top->next=NULL;
                 }
             }
-            return ans;
+            return tail;
         }
     };
