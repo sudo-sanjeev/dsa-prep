@@ -20,7 +20,7 @@
 | 11  | Word ladder II                            | Hard       | [126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)                                                                                                                               | -      |               |               |
 | 12 | Number of islands | Medium | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | ✓ | 2026-04-01 | 2026-04-08 |
 | 13  | Bipartite Graph (DFS)                     | Hard       | [785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)                                                                                                                      | -      |               |               |
-| 14  | Cycle Detection in Directed Graph (DFS)   | Hard       | [207. Course Schedule](https://leetcode.com/problems/course-schedule/)                                                                                                                             | -      |               |               |
+| 14 | Cycle Detection in Directed Graph (DFS) | Hard | [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | ✓ | 2026-04-01 | 2026-04-07 |
 
 
 ### Topo Sort and Problems
@@ -30,8 +30,8 @@
 | --- | ------------------------------------ | ---------- | ---------------------------------------------------------------------------------------------------------------- | ------ | ------------- | ------------- |
 | 1   | Topo Sort                            | Hard       | [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) (Kahn / topo order on dependencies) | -      |               |               |
 | 2   | Topological sort or Kahn's algorithm | Hard       | [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                                     | -      |               |               |
-| 3   | Detect a cycle in a directed graph   | Hard       | [207. Course Schedule](https://leetcode.com/problems/course-schedule/)                                           | -      |               |               |
-| 4   | Course Schedule I                    | Hard       | [207. Course Schedule](https://leetcode.com/problems/course-schedule/)                                           | -      |               |               |
+| 3 | Detect a cycle in a directed graph | Hard | [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | ✓ | 2026-04-01 | 2026-04-07 |
+| 4 | Course Schedule I | Hard | [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | ✓ | 2026-04-01 | 2026-04-07 |
 | 5   | Course Schedule II                   | Medium     | [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                                     | -      |               |               |
 | 6   | Find eventual safe states            | Hard       | [802. Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)                       | -      |               |               |
 | 7   | Alien Dictionary                     | Hard       | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) (LC Premium in many regions)            | -      |               |               |
