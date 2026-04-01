@@ -93,6 +93,65 @@ def revision_dates(difficulty: str) -> tuple[str, str]:
     return today.isoformat(), nxt.isoformat()
 
 
+def count_solved_rows_in_readme(path: Path) -> int:
+    """Count table rows with status ✓ or √ in a topic README."""
+    n = 0
+    for line in path.read_text(encoding="utf-8").splitlines():
+        row = parse_readme_table_row(line)
+        if row and row["status"] in ("✓", "√"):
+            n += 1
+    return n
+
+
+def update_root_readme_progress(root: Path) -> bool:
+    """Sync Progress / Total columns in root README.md from topic README ✓ counts."""
+    readme_path = root / "README.md"
+    if not readme_path.is_file():
+        return False
+    text = readme_path.read_text(encoding="utf-8")
+    lines = text.splitlines(keepends=False)
+
+    counts: dict[str, int] = {}
+    for path in sorted(root.glob(TOPIC_GLOB)):
+        counts[path.parent.name] = count_solved_rows_in_readme(path)
+    total_solved = sum(counts.values())
+
+    new_lines: list[str] = []
+    changed = False
+    for line in lines:
+        parts = [p.strip() for p in line.split("|")]
+        if (
+            len(parts) >= 7
+            and len(parts[1]) == 2
+            and parts[1].isdigit()
+            and "README.md" in parts[5]
+        ):
+            m = re.search(r"\./([^)]+)/README\.md", parts[5])
+            if m:
+                folder = m.group(1)
+                solved = counts.get(folder, 0)
+                if parts[3] != str(solved):
+                    changed = True
+                parts[3] = str(solved)
+                new_lines.append("| " + " | ".join(parts[1:6]) + " |")
+                continue
+        if len(parts) >= 5 and "**Total**" in parts[2]:
+            total_cell = parts[4] if len(parts) > 4 else "**338**"
+            new_prog = f"**{total_solved}**"
+            if parts[3] != new_prog:
+                changed = True
+            new_lines.append(
+                f"|    | **Total**           | {new_prog}    | {total_cell} |                                               |"
+            )
+            continue
+        new_lines.append(line)
+
+    if changed:
+        ending = "\n" if text.endswith("\n") else ""
+        readme_path.write_text("\n".join(new_lines) + ending, encoding="utf-8")
+    return changed
+
+
 def update_readme_mark_solved(root: Path, leetcode: int) -> list[Path]:
     """Set Status ✓, last / next revision on every row whose primary LC link matches leetcode."""
     touched: list[Path] = []

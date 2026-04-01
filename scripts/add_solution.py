@@ -19,6 +19,7 @@ from dsa_readme_rows import (
     leetcode_num_from_title,
     leetcode_slug_from_url,
     update_readme_mark_solved,
+    update_root_readme_progress,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -180,8 +181,11 @@ def main() -> None:
     print(out)
 
     if not args.no_readme and lc_num is not None:
-        for p in update_readme_mark_solved(ROOT, lc_num):
+        touched = update_readme_mark_solved(ROOT, lc_num)
+        for p in touched:
             print(f"README: {p.relative_to(ROOT)}")
+        if touched and update_root_readme_progress(ROOT):
+            print("README: README.md (progress overview)")
 
 
 if __name__ == "__main__":

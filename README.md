@@ -10,24 +10,24 @@ Tracking progress on [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers
 - **Last revision** — Date you last solved it to that bar (optional: infer from git if you commit per problem)
 - **Next revision** — When to revisit (spaced repetition): **Easy** +2 weeks, **Medium** +1 week, **Hard** +5–7 days after last revision (adjust as you like)
 
-Each topic’s README is a checklist: update **Status** and dates per row. Refresh the **Progress** column in the overview table when counts change (count `✓` in that topic file, or track however you prefer).
+Each topic’s README is a checklist: update **Status** and dates per row. **`python3 scripts/add_solution.py <LeetCode#>`** updates the topic table(s), then syncs this overview from ✓ counts; after manual edits, run **`python3 scripts/sync_progress.py`**.
 
 ## Progress overview
 
 | #  | Topic               | Progress | Total | Problems                                        |
 | -- | ------------------- | -------- | ----- | ----------------------------------------------- |
-| 01 | Binary Search       | 0        | 33    | [View](./01-binary-search/README.md)            |
-| 02 | Linked List         | 0        | 31    | [View](./02-linked-list/README.md)              |
-| 03 | Recursion           | 0        | 30    | [View](./03-recursion/README.md)                |
-| 04 | Stack and Queues    | 0        | 30    | [View](./04-stack-and-queues/README.md)         |
-| 05 | Sliding Window      | 0        | 13    | [View](./05-sliding-window/README.md)           |
-| 06 | Heaps               | 0        | 17    | [View](./06-heaps/README.md)                    |
-| 07 | Greedy Algorithms   | 0        | 16    | [View](./07-greedy/README.md)                   |
-| 08 | Binary Trees        | 0        | 39    | [View](./08-binary-trees/README.md)             |
-| 09 | Binary Search Trees | 0        | 16    | [View](./09-binary-search-trees/README.md)      |
-| 10 | Graphs              | 0        | 54    | [View](./10-graphs/README.md)                   |
-| 11 | Dynamic Programming | 0        | 59    | [View](./11-dynamic-programming/README.md)      |
-|    | **Total**           | **0**    | **338** |                                               |
+| 01 | Binary Search | 1 | 33 | [View](./01-binary-search/README.md) |
+| 02 | Linked List | 2 | 31 | [View](./02-linked-list/README.md) |
+| 03 | Recursion | 1 | 30 | [View](./03-recursion/README.md) |
+| 04 | Stack and Queues | 0 | 30 | [View](./04-stack-and-queues/README.md) |
+| 05 | Sliding Window | 1 | 13 | [View](./05-sliding-window/README.md) |
+| 06 | Heaps | 1 | 17 | [View](./06-heaps/README.md) |
+| 07 | Greedy Algorithms | 0 | 16 | [View](./07-greedy/README.md) |
+| 08 | Binary Trees | 0 | 39 | [View](./08-binary-trees/README.md) |
+| 09 | Binary Search Trees | 1 | 16 | [View](./09-binary-search-trees/README.md) |
+| 10 | Graphs | 5 | 54 | [View](./10-graphs/README.md) |
+| 11 | Dynamic Programming | 0 | 59 | [View](./11-dynamic-programming/README.md) |
+|    | **Total**           | **12**    | **338** |                                               |
 
 ## Daily top 5 (Cursor)
 
