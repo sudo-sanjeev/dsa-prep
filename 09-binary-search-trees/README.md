@@ -12,7 +12,7 @@
 | 3   | Insert a given node in BST                | Medium     | [701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | - | | |
 | 4   | Delete a node in BST                      | Medium     | [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | - | | |
 | 5   | Kth Smallest and Largest element in BST   | Medium     | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) (kth largest = (n−k+1)th smallest, or reverse inorder) | - | | |
-| 6   | Check if a tree is a BST or not           | Medium     | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | - | | |
+| 6 | Check if a tree is a BST or not | Medium | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | ✓ | 2026-04-01 | 2026-04-08 |
 | 7   | LCA (Lowest Common Ancestor) in BST       | Medium     | [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | - | | |
 | 8   | Construct a BST from a preorder traversal | Medium     | [1008. Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | - | | |
 | 9   | Inorder Successor/Predecessor in BST      | Medium     | [285. Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) (LC Premium; predecessor: same inorder walk / mirror) · [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | - | | |
