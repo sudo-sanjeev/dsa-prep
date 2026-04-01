@@ -29,7 +29,7 @@
 | --- | --------------------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | --- |
 | 1   | Find square root of a number            | Medium     | [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) | - | | |
 | 2   | Find Nth root of a number               | Medium     | [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) (same BS-on-answer pattern; generalize exponent to n) | - | | |
-| 3   | Koko eating bananas                     | Medium     | [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | - | | |
+| 3 | Koko eating bananas | Medium | [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | ✓ | 2026-04-01 | 2026-04-08 |
 | 4   | Minimum days to make M bouquets         | Medium     | [1482. Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | - | | |
 | 5   | Find the smallest divisor               | Medium     | [1283. Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/) | - | | |
 | 6   | Capacity to Ship Packages Within D Days | Medium     | [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | - | | |
