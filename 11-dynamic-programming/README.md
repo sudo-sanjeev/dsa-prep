@@ -7,7 +7,7 @@
 
 | #   | Problem                              | Difficulty | LeetCode | Status | Last revision | Next revision |
 | --- | ------------------------------------ | ---------- | -------------------------------------------------------------------------------------------------------------------- | --- | --- | --- |
-| 1   | Climbing stairs                      | Medium     | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | - | | |
+| 1 | Climbing stairs | Medium | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | ✓ | 2026-04-02 | 2026-04-09 |
 | 2   | Frog Jump                            | Medium     | [403. Frog Jump](https://leetcode.com/problems/frog-jump/) | - | | |
 | 3   | Frog jump with K distances           | Medium     | [403. Frog Jump](https://leetcode.com/problems/frog-jump/) (related “k-step” variants are often GFG / Coding Ninjas) | - | | |
 | 4 | Maximum sum of non adjacent elements | Medium | [198. House Robber](https://leetcode.com/problems/house-robber/) | ✓ | 2026-04-02 | 2026-04-09 |
