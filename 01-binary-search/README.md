@@ -14,7 +14,7 @@
 | 5   | Floor and Ceil in Sorted Array               | Easy       | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) (insert index; neighbors are ceil/floor) | - | | |
 | 6   | First and last occurrence                    | Easy       | [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | - | | |
 | 7   | Count Occurrences in a Sorted Array          | Easy       | [34. Find First and Last Position…](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) (count = last − first + 1) | - | | |
-| 8   | Search in rotated sorted array-I             | Medium     | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | - | | |
+| 8 | Search in rotated sorted array-I | Medium | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | ✓ | 2026-04-02 | 2026-04-09 |
 | 9   | Search in rotated sorted array-II            | Medium     | [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | - | | |
 | 10  | Find minimum in Rotated Sorted Array         | Easy       | [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | - | | |
 | 11  | Find out how many times the array is rotated | Easy       | [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) (rotation count = index of minimum, for distinct elements) | - | | |
