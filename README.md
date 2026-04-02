@@ -26,8 +26,8 @@ Each topic’s README is a checklist: update **Status** and dates per row. **`py
 | 08 | Binary Trees | 0 | 39 | [View](./08-binary-trees/README.md) |
 | 09 | Binary Search Trees | 1 | 16 | [View](./09-binary-search-trees/README.md) |
 | 10 | Graphs | 5 | 54 | [View](./10-graphs/README.md) |
-| 11 | Dynamic Programming | 0 | 59 | [View](./11-dynamic-programming/README.md) |
-|    | **Total**           | **13**    | **338** |                                               |
+| 11 | Dynamic Programming | 2 | 59 | [View](./11-dynamic-programming/README.md) |
+|    | **Total**           | **15**    | **338** |                                               |
 
 ## Daily top 5 (Cursor)
 
