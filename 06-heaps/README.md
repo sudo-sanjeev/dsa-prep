@@ -7,8 +7,8 @@
 
 | #   | Problem                                               | Difficulty | LeetCode | Status | Last revision | Next revision |
 | --- | ----------------------------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | --- |
-| 1   | K-th Largest element in an array                      | Medium     | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | - | | |
-| 2   | Kth smallest element in an array [use priority queue] | Medium     | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) (kth smallest = (n−k+1)th largest, or min-heap of size k) | - | | |
+| 1 | K-th Largest element in an array | Medium | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | ✓ | 2026-04-03 | 2026-04-10 |
+| 2 | Kth smallest element in an array [use priority queue] | Medium | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) (kth smallest = (n−k+1)th largest, or min-heap of size k) | ✓ | 2026-04-03 | 2026-04-10 |
 | 3   | Sort K sorted array                                   | Easy       | [632. Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) (K-way merge / heap family; single-array “K-sorted” sort is often GFG) | - | | |
 | 4 | Merge K sorted Lists | Hard | [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | ✓ | 2026-04-01 | 2026-04-07 |
 | 5   | Replace Elements by Their Rank                        | Easy       | [1331. Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | - | | |
