@@ -28,11 +28,11 @@
 
 | #   | Problem                              | Difficulty | LeetCode                                                                                                         | Status | Last revision | Next revision |
 | --- | ------------------------------------ | ---------- | ---------------------------------------------------------------------------------------------------------------- | ------ | ------------- | ------------- |
-| 1   | Topo Sort                            | Hard       | [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) (Kahn / topo order on dependencies) | -      |               |               |
-| 2   | Topological sort or Kahn's algorithm | Hard       | [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                                     | -      |               |               |
+| 1 | Topo Sort | Hard | [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) (Kahn / topo order on dependencies) | ✓ | 2026-04-04 | 2026-04-10 |
+| 2 | Topological sort or Kahn's algorithm | Hard | [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | ✓ | 2026-04-04 | 2026-04-10 |
 | 3 | Detect a cycle in a directed graph | Hard | [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | ✓ | 2026-04-01 | 2026-04-07 |
 | 4 | Course Schedule I | Hard | [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | ✓ | 2026-04-01 | 2026-04-07 |
-| 5   | Course Schedule II                   | Medium     | [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                                     | -      |               |               |
+| 5 | Course Schedule II | Medium | [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | ✓ | 2026-04-04 | 2026-04-11 |
 | 6   | Find eventual safe states            | Hard       | [802. Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)                       | -      |               |               |
 | 7   | Alien Dictionary                     | Hard       | [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) (LC Premium in many regions)            | -      |               |               |
 
