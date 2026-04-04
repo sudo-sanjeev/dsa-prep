@@ -103,8 +103,23 @@ def count_solved_rows_in_readme(path: Path) -> int:
     return n
 
 
+def count_tracked_rows_in_readme(path: Path) -> int:
+    """Count all checklist rows (any status) in a topic README table."""
+    n = 0
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if parse_readme_table_row(line):
+            n += 1
+    return n
+
+
+# Root README line updated by update_root_readme_progress (do not edit the number by hand).
+SHEET_SOLVED_LINE_RE = re.compile(
+    r"^\*\*Sheet rows solved:\*\* \*\*\d+\*\* / \*\*\d+\*\*(.*)$"
+)
+
+
 def update_root_readme_progress(root: Path) -> bool:
-    """Sync Progress / Total columns in root README.md from topic README ✓ counts."""
+    """Sync Progress / Total columns and the top 'Sheet rows solved' line in root README.md."""
     readme_path = root / "README.md"
     if not readme_path.is_file():
         return False
@@ -112,13 +127,39 @@ def update_root_readme_progress(root: Path) -> bool:
     lines = text.splitlines(keepends=False)
 
     counts: dict[str, int] = {}
+    total_sheet = 0
     for path in sorted(root.glob(TOPIC_GLOB)):
         counts[path.parent.name] = count_solved_rows_in_readme(path)
+        total_sheet += count_tracked_rows_in_readme(path)
     total_solved = sum(counts.values())
+
+    sum_overview_totals = 0
+    for line in lines:
+        parts = [p.strip() for p in line.split("|")]
+        if (
+            len(parts) >= 7
+            and len(parts[1]) == 2
+            and parts[1].isdigit()
+            and "README.md" in parts[5]
+            and re.search(r"\./([^)]+)/README\.md", parts[5])
+            and parts[4].isdigit()
+        ):
+            sum_overview_totals += int(parts[4])
+    denom = sum_overview_totals if sum_overview_totals > 0 else total_sheet
 
     new_lines: list[str] = []
     changed = False
+    saw_solved_line = False
     for line in lines:
+        m = SHEET_SOLVED_LINE_RE.match(line)
+        if m:
+            saw_solved_line = True
+            suffix = m.group(1)
+            new_line = f"**Sheet rows solved:** **{total_solved}** / **{denom}**{suffix}"
+            if new_line != line:
+                changed = True
+            new_lines.append(new_line)
+            continue
         parts = [p.strip() for p in line.split("|")]
         if (
             len(parts) >= 7
@@ -145,6 +186,24 @@ def update_root_readme_progress(root: Path) -> bool:
             )
             continue
         new_lines.append(line)
+
+    if not saw_solved_line:
+        insert = (
+            f"**Sheet rows solved:** **{total_solved}** / **{denom}** "
+            "— same ✓ total as the table below (auto-updated by `add_solution.py` / `sync_progress.py`)."
+        )
+        out2: list[str] = []
+        inserted = False
+        for line in new_lines:
+            out2.append(line)
+            if not inserted and line.startswith("Tracking progress on"):
+                out2.append("")
+                out2.append(insert)
+                inserted = True
+                changed = True
+        new_lines = out2 if inserted else new_lines[:1] + ["", insert] + new_lines[1:]
+        if not inserted:
+            changed = True
 
     if changed:
         ending = "\n" if text.endswith("\n") else ""
