@@ -38,7 +38,7 @@
 | 6   | Length of loop in LL                        | Medium     | [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) (find start, then walk loop) | - | | |
 | 7   | Check if LL is palindrome or not            | Medium     | [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | - | | |
 | 8   | Segregate odd and even nodes in Linked List | Medium     | [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | - | | |
-| 9   | Remove Nth node from the back of the LL     | Medium     | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | - | | |
+| 9 | Remove Nth node from the back of the LL | Medium | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | ✓ | 2026-04-04 | 2026-04-11 |
 | 10  | Delete the middle node in LL                | Medium     | [2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | - | | |
 | 11  | Sort LL                                     | Hard       | [148. Sort List](https://leetcode.com/problems/sort-list/) | - | | |
 | 12  | Sort a Linked List of 0's, 1's and 2's      | Medium     | [GFG: sort 0s, 1s and 2s](https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1) (Dutch flag on LL; LC has no exact twin) | - | | |
