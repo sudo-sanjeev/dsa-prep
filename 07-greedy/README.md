@@ -28,5 +28,5 @@
 | 7   | Shortest Job First                                               | Medium     | [1834. Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/) (SJF-style scheduling with heap) | - | | |
 | 8   | Program for Least Recently Used (LRU) Page Replacement Algorithm | Medium     | [146. LRU Cache](https://leetcode.com/problems/lru-cache/) | - | | |
 | 9   | Insert Interval                                                  | Medium     | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | - | | |
-| 10  | Merge Intervals                                                  | Medium     | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | - | | |
+| 10 | Merge Intervals | Medium | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | ✓ | 2026-04-05 | 2026-04-12 |
 | 11  | Non-overlapping Intervals                                        | Medium     | [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | - | | |
