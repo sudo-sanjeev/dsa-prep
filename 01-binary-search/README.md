@@ -8,10 +8,10 @@
 | #   | Problem                                      | Difficulty | LeetCode | Status | Last revision | Next revision |
 | --- | -------------------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | --- |
 | 1   | Search X in sorted array                     | Easy       | [704. Binary Search](https://leetcode.com/problems/binary-search/) | - | | |
-| 2   | Lower Bound                                  | Easy       | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) (first index ≥ target) | - | | |
+| 2 | Lower Bound | Easy | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) (first index ≥ target) | ✓ | 2026-04-05 | 2026-04-19 |
 | 3   | Upper Bound                                  | Easy       | [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) (first > target; same idea on integers) | - | | |
-| 4   | Search insert position                       | Easy       | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) | - | | |
-| 5   | Floor and Ceil in Sorted Array               | Easy       | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) (insert index; neighbors are ceil/floor) | - | | |
+| 4 | Search insert position | Easy | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) | ✓ | 2026-04-05 | 2026-04-19 |
+| 5 | Floor and Ceil in Sorted Array | Easy | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) (insert index; neighbors are ceil/floor) | ✓ | 2026-04-05 | 2026-04-19 |
 | 6   | First and last occurrence                    | Easy       | [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | - | | |
 | 7   | Count Occurrences in a Sorted Array          | Easy       | [34. Find First and Last Position…](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) (count = last − first + 1) | - | | |
 | 8 | Search in rotated sorted array-I | Medium | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | ✓ | 2026-04-02 | 2026-04-09 |
