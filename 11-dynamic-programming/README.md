@@ -69,7 +69,7 @@
 
 | #   | Problem                                               | Difficulty | LeetCode | Status | Last revision | Next revision |
 | --- | ----------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | --- | --- | --- |
-| 1   | Best time to buy and sell stock                       | Medium     | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | - | | |
+| 1 | Best time to buy and sell stock | Medium | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | ✓ | 2026-04-05 | 2026-04-12 |
 | 2   | Best time to buy and sell stock II                    | Medium     | [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | - | | |
 | 3   | Best time to buy and sell stock III                   | Medium     | [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | - | | |
 | 4   | Best time to buy and sell stock IV                    | Medium     | [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | - | | |
