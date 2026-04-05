@@ -25,13 +25,13 @@
 | --- | ---------------------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | --- |
 | 1   | Generate Binary Strings Without Consecutive 1s | Medium     | [3211. Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/) (LC “no adjacent 0s”; same backtracking as no consecutive 1s) | - | | |
 | 2   | Generate Parentheses                           | Medium     | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | - | | |
-| 3   | Power Set                                      | Medium     | [78. Subsets](https://leetcode.com/problems/subsets/) | - | | |
+| 3 | Power Set | Medium | [78. Subsets](https://leetcode.com/problems/subsets/) | ✓ | 2026-04-05 | 2026-04-12 |
 | 4   | Learn All Patterns of Subsequences (Theory)    | Easy       | — (theory on sheet; practice via rows below) | - | | |
 | 5   | Count all subsequences with sum K              | Easy       | [494. Target Sum](https://leetcode.com/problems/target-sum/) (subset / count DP class; exact “count subseq sum K” is often GFG-style) | - | | |
 | 6   | Check if there exists a subsequence with sum K | Easy       | [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) (boolean subset-sum pattern; generalize target to K) | - | | |
 | 7   | Combination Sum                                | Medium     | [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | - | | |
 | 8   | Combination Sum II                             | Medium     | [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | - | | |
-| 9   | Subsets I                                      | Medium     | [78. Subsets](https://leetcode.com/problems/subsets/) | - | | |
+| 9 | Subsets I | Medium | [78. Subsets](https://leetcode.com/problems/subsets/) | ✓ | 2026-04-05 | 2026-04-12 |
 | 10  | Subsets II                                     | Medium     | [90. Subsets II](https://leetcode.com/problems/subsets-ii/) | - | | |
 | 11  | Combination Sum III                            | Medium     | [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | - | | |
 | 12  | Letter Combinations of a Phone Number          | Hard       | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | - | | |
