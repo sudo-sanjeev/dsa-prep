@@ -10,7 +10,7 @@
 | 1   | Binary Tree Preorder Traversal    | Easy       | [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | - | | |
 | 2   | Binary Tree Inorder Traversal     | Easy       | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | - | | |
 | 3   | Binary Tree Postorder Traversal   | Easy       | [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | - | | |
-| 4   | Binary Tree Level Order Traversal | Medium     | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | - | | |
+| 4 | Binary Tree Level Order Traversal | Medium | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | ✓ | 2026-04-05 | 2026-04-12 |
 | 5   | Invert Binary Tree                | Easy       | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | - | | |
 | 6   | Merge Two Binary Trees            | Easy       | [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | - | | |
 | 7   | Subtree of Another Tree           | Easy       | [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | - | | |
