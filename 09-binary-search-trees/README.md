@@ -17,7 +17,7 @@
 | 8   | Construct a BST from a preorder traversal | Medium     | [1008. Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | - | | |
 | 9   | Inorder Successor/Predecessor in BST      | Medium     | [285. Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) (LC Premium; predecessor: same inorder walk / mirror) · [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | - | | |
 | 10  | Merge 2 BST's                             | Hard       | [1305. All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) (merge into sorted order) | - | | |
-| 11  | Two Sum In BST (pair with Sum K)          | Hard       | [653. Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | - | | |
+| 11 | Two Sum In BST (pair with Sum K) | Hard | [653. Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | ✓ | 2026-04-05 | 2026-04-11 |
 | 12  | Correct BST with two nodes swapped        | Hard       | [99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | - | | |
 | 13  | Largest BST in Binary Tree                | Hard       | [333. Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree/) | - | | |
 | 14  | Binary Search Tree Iterator               | Medium     | [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | - | | |
