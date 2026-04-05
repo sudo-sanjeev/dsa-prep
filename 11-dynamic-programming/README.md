@@ -40,10 +40,10 @@
 | 4   | Count subsets with sum K                                              | Hard       | [494. Target Sum](https://leetcode.com/problems/target-sum/) (related count DP; exact “count subsets with sum K” on positives is often GFG) | - | | |
 | 5   | Count partitions with given difference                                | Hard       | [494. Target Sum](https://leetcode.com/problems/target-sum/) (reformulate subset-sum vs difference) | - | | |
 | 6   | Assign Cookies                                                        | Easy       | [455. Assign Cookies](https://leetcode.com/problems/assign-cookies/) | - | | |
-| 7   | Minimum Coins (DP-20)                                                 | Hard       | [322. Coin Change](https://leetcode.com/problems/coin-change/) | - | | |
+| 7 | Minimum Coins (DP-20) | Hard | [322. Coin Change](https://leetcode.com/problems/coin-change/) | ✓ | 2026-04-05 | 2026-04-11 |
 | 8   | Target sum                                                            | Hard       | [494. Target Sum](https://leetcode.com/problems/target-sum/) | - | | |
 | 9   | Coin Change 2 (DP-22)                                                 | Hard       | [518. Coin Change II](https://leetcode.com/problems/coin-change-ii/) | - | | |
-| 10  | Unbounded knapsack                                                    | Hard       | [322. Coin Change](https://leetcode.com/problems/coin-change/) / [518. Coin Change II](https://leetcode.com/problems/coin-change-ii/) (unbounded knapsack patterns) | - | | |
+| 10 | Unbounded knapsack | Hard | [322. Coin Change](https://leetcode.com/problems/coin-change/) / [518. Coin Change II](https://leetcode.com/problems/coin-change-ii/) (unbounded knapsack patterns) | ✓ | 2026-04-05 | 2026-04-11 |
 | 11  | Rod Cutting Problem                                                   | Hard       | [GFG: Rod Cutting](https://www.geeksforgeeks.org/problems/rod-cutting0840/1) (unbounded knapsack variant; no direct LC) | - | | |
 
 

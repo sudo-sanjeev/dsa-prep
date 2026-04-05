@@ -9,7 +9,7 @@
 | --- | ------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | --- |
 | 1   | Assign Cookies            | Easy       | [455. Assign Cookies](https://leetcode.com/problems/assign-cookies/) | - | | |
 | 2   | Fractional Knapsack       | Medium     | [857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) (ratio / sort greedy; no exact “fractional knapsack” on LC — classical GFG) | - | | |
-| 3   | Minimum coins             | Hard       | [322. Coin Change](https://leetcode.com/problems/coin-change/) (DP on LC; greedy only for special denominations — sheet often pairs with greedy discussion) | - | | |
+| 3 | Minimum coins | Hard | [322. Coin Change](https://leetcode.com/problems/coin-change/) (DP on LC; greedy only for special denominations — sheet often pairs with greedy discussion) | ✓ | 2026-04-05 | 2026-04-11 |
 | 4   | Lemonade Change           | Easy       | [860. Lemonade Change](https://leetcode.com/problems/lemonade-change/) | - | | |
 | 5   | Valid Parenthesis Checker | Hard       | [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) (wildcard `*`; same “valid parentheses” family) | - | | |
 

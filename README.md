@@ -2,7 +2,7 @@
 
 Tracking progress on [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/) — **338** problems across **11** topics.
 
-**Sheet rows solved:** **35** / **338** — same ✓ total as the table below (auto-updated by `add_solution.py` / `sync_progress.py`).
+**Sheet rows solved:** **38** / **338** — same ✓ total as the table below (auto-updated by `add_solution.py` / `sync_progress.py`).
 
 ## How to use
 
@@ -24,12 +24,12 @@ Each topic’s README is a checklist: update **Status** and dates per row. **`py
 | 04 | Stack and Queues | 0 | 30 | [View](./04-stack-and-queues/README.md) |
 | 05 | Sliding Window | 2 | 13 | [View](./05-sliding-window/README.md) |
 | 06 | Heaps | 4 | 17 | [View](./06-heaps/README.md) |
-| 07 | Greedy Algorithms | 1 | 16 | [View](./07-greedy/README.md) |
+| 07 | Greedy Algorithms | 2 | 16 | [View](./07-greedy/README.md) |
 | 08 | Binary Trees | 1 | 39 | [View](./08-binary-trees/README.md) |
 | 09 | Binary Search Trees | 1 | 16 | [View](./09-binary-search-trees/README.md) |
 | 10 | Graphs | 9 | 54 | [View](./10-graphs/README.md) |
-| 11 | Dynamic Programming | 5 | 59 | [View](./11-dynamic-programming/README.md) |
-|    | **Total**           | **35**    | **338** |                                               |
+| 11 | Dynamic Programming | 7 | 59 | [View](./11-dynamic-programming/README.md) |
+|    | **Total**           | **38**    | **338** |                                               |
 
 ## Daily top 5 (Cursor)
 
