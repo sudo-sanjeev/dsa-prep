@@ -7,7 +7,7 @@
 
 | #   | Problem                                      | Difficulty | LeetCode | Status | Last revision | Next revision |
 | --- | -------------------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | --- |
-| 1   | Search X in sorted array                     | Easy       | [704. Binary Search](https://leetcode.com/problems/binary-search/) | - | | |
+| 1 | Search X in sorted array | Easy | [704. Binary Search](https://leetcode.com/problems/binary-search/) | ✓ | 2026-04-06 | 2026-04-20 |
 | 2 | Lower Bound | Easy | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) (first index ≥ target) | ✓ | 2026-04-05 | 2026-04-19 |
 | 3   | Upper Bound                                  | Easy       | [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) (first > target; same idea on integers) | - | | |
 | 4 | Search insert position | Easy | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/) | ✓ | 2026-04-05 | 2026-04-19 |
