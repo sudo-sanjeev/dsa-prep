@@ -42,7 +42,7 @@
 | 10  | Delete the middle node in LL                | Medium     | [2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | - | | |
 | 11  | Sort LL                                     | Hard       | [148. Sort List](https://leetcode.com/problems/sort-list/) | - | | |
 | 12  | Sort a Linked List of 0's, 1's and 2's      | Medium     | [GFG: sort 0s, 1s and 2s](https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1) (Dutch flag on LL; LC has no exact twin) | - | | |
-| 13  | Find the intersection point of Y LL         | Medium     | [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | - | | |
+| 13 | Find the intersection point of Y LL | Medium | [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | ✓ | 2026-04-06 | 2026-04-13 |
 | 14  | Add one to a number represented by LL       | Medium     | [369. Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) (**LC Premium** — carry from least significant digit) | - | | |
 | 15  | Add two numbers in Linked List              | Medium     | [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | - | | |
 
