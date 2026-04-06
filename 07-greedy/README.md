@@ -20,7 +20,7 @@
 | #   | Problem                                                          | Difficulty | LeetCode | Status | Last revision | Next revision |
 | --- | ---------------------------------------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | --- |
 | 1   | N meetings in one room                                           | Medium     | [646. Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/) (sort by end / greedy chain; same idea as max non-overlapping meetings) | - | | |
-| 2   | Jump Game - I                                                    | Easy       | [55. Jump Game](https://leetcode.com/problems/jump-game/) | - | | |
+| 2 | Jump Game - I | Easy | [55. Jump Game](https://leetcode.com/problems/jump-game/) | ✓ | 2026-04-06 | 2026-04-20 |
 | 3   | Jump Game II                                                     | Medium     | [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) | - | | |
 | 4   | Minimum number of platforms required for a railway               | Medium     | [2406. Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/) (same as min meeting rooms / platforms; [253](https://leetcode.com/problems/meeting-rooms-ii/) is LC Premium) | - | | |
 | 5   | Job sequencing Problem                                           | Medium     | [1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | - | | |
