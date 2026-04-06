@@ -10,7 +10,7 @@
 | 1   | Fibonacci Number                   | Easy       | [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | - | | |
 | 2   | Pow(x, n)                          | Medium     | [50. Pow(x, n)](https://leetcode.com/problems/powx-n/) | - | | |
 | 3   | K-th Symbol in Grammar             | Medium     | [779. K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/) | - | | |
-| 4   | Merge Two Sorted Lists (recursion) | Easy       | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | - | | |
+| 4 | Merge Two Sorted Lists (recursion) | Easy | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | ✓ | 2026-04-06 | 2026-04-20 |
 | 5 | Reverse Linked List (recursion) | Easy | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | ✓ | 2026-04-01 | 2026-04-15 |
 | 6   | Implement Atoi (string to integer) | Medium     | [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | - | | |
 | 7   | Count Good Numbers                 | Medium     | [1922. Count Good Numbers](https://leetcode.com/problems/count-good-numbers/) | - | | |

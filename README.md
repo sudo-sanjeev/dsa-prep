@@ -2,7 +2,7 @@
 
 Tracking progress on [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/) — **338** problems across **11** topics.
 
-**Sheet rows solved:** **43** / **338** — same ✓ total as the table below (auto-updated by `add_solution.py` / `sync_progress.py`).
+**Sheet rows solved:** **44** / **338** — same ✓ total as the table below (auto-updated by `add_solution.py` / `sync_progress.py`).
 
 ## How to use
 
@@ -20,7 +20,7 @@ Each topic’s README is a checklist: update **Status** and dates per row. **`py
 | -- | ------------------- | -------- | ----- | ----------------------------------------------- |
 | 01 | Binary Search | 6 | 33 | [View](./01-binary-search/README.md) |
 | 02 | Linked List | 4 | 31 | [View](./02-linked-list/README.md) |
-| 03 | Recursion | 3 | 30 | [View](./03-recursion/README.md) |
+| 03 | Recursion | 4 | 30 | [View](./03-recursion/README.md) |
 | 04 | Stack and Queues | 0 | 30 | [View](./04-stack-and-queues/README.md) |
 | 05 | Sliding Window | 2 | 13 | [View](./05-sliding-window/README.md) |
 | 06 | Heaps | 4 | 17 | [View](./06-heaps/README.md) |
@@ -29,7 +29,7 @@ Each topic’s README is a checklist: update **Status** and dates per row. **`py
 | 09 | Binary Search Trees | 2 | 16 | [View](./09-binary-search-trees/README.md) |
 | 10 | Graphs | 11 | 54 | [View](./10-graphs/README.md) |
 | 11 | Dynamic Programming | 7 | 59 | [View](./11-dynamic-programming/README.md) |
-|    | **Total**           | **43**    | **338** |                                               |
+|    | **Total**           | **44**    | **338** |                                               |
 
 ## Daily top 5 (Cursor)
 
