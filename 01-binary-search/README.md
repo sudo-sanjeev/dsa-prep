@@ -16,8 +16,8 @@
 | 7   | Count Occurrences in a Sorted Array          | Easy       | [34. Find First and Last Position…](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) (count = last − first + 1) | - | | |
 | 8 | Search in rotated sorted array-I | Medium | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | ✓ | 2026-04-02 | 2026-04-09 |
 | 9   | Search in rotated sorted array-II            | Medium     | [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | - | | |
-| 10  | Find minimum in Rotated Sorted Array         | Easy       | [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | - | | |
-| 11  | Find out how many times the array is rotated | Easy       | [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) (rotation count = index of minimum, for distinct elements) | - | | |
+| 10 | Find minimum in Rotated Sorted Array | Easy | [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | ✓ | 2026-04-07 | 2026-04-21 |
+| 11 | Find out how many times the array is rotated | Easy | [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) (rotation count = index of minimum, for distinct elements) | ✓ | 2026-04-07 | 2026-04-21 |
 | 12  | Single element in a Sorted Array             | Medium     | [540. Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | - | | |
 | 13  | Find peak element                            | Medium     | [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) | - | | |
 
