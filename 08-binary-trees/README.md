@@ -47,7 +47,7 @@
 | #   | Problem                                              | Difficulty | LeetCode | Status | Last revision | Next revision |
 | --- | ---------------------------------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | --- |
 | 1   | Print root to leaf path in BT                        | Medium     | [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | - | | |
-| 2   | LCA in BT                                            | Hard       | [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | - | | |
+| 2 | LCA in BT | Hard | [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | ✓ | 2026-04-07 | 2026-04-13 |
 | 3   | Maximum Width of BT                                  | Medium     | [662. Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | - | | |
 | 4   | Children Sum Property in Binary Tree                 | Medium     | — (no direct LeetCode title; classical GFG / sheet) | - | | |
 | 5   | Print all nodes at a distance of K in BT             | Hard       | [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | - | | |
