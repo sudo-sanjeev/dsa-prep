@@ -23,7 +23,7 @@
 | 1   | Ninja's training                      | Medium     | [931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) (3-way choice per row; same DP style as “Ninja’s” sheet) | - | | |
 | 2 | Grid Unique Paths : DP on Grids (DP8) | Medium | [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | ✓ | 2026-04-03 | 2026-04-10 |
 | 3   | Unique paths II                       | Medium     | [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | - | | |
-| 4   | Minimum path sum in Grid (DP 10)      | Medium     | [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | - | | |
+| 4 | Minimum path sum in Grid (DP 10) | Medium | [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | ✓ | 2026-04-07 | 2026-04-14 |
 | 5   | Triangle                              | Medium     | [120. Triangle](https://leetcode.com/problems/triangle/) | - | | |
 | 6   | Minimum Falling Path Sum              | Medium     | [931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | - | | |
 | 7   | Ninja and his Friends                 | Medium     | [741. Cherry Pickup](https://leetcode.com/problems/cherry-pickup/) (two-path cherry pick; 3-friend “Ninja” variants are often sheet/GFG) | - | | |
