@@ -24,7 +24,7 @@
 | #   | Problem                                        | Difficulty | LeetCode | Status | Last revision | Next revision |
 | --- | ---------------------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | --- |
 | 1   | Generate Binary Strings Without Consecutive 1s | Medium     | [3211. Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/) (LC “no adjacent 0s”; same backtracking as no consecutive 1s) | - | | |
-| 2   | Generate Parentheses                           | Medium     | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | - | | |
+| 2 | Generate Parentheses | Medium | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | ✓ | 2026-04-08 | 2026-04-15 |
 | 3 | Power Set | Medium | [78. Subsets](https://leetcode.com/problems/subsets/) | ✓ | 2026-04-05 | 2026-04-12 |
 | 4   | Learn All Patterns of Subsequences (Theory)    | Easy       | — (theory on sheet; practice via rows below) | - | | |
 | 5   | Count all subsequences with sum K              | Easy       | [494. Target Sum](https://leetcode.com/problems/target-sum/) (subset / count DP class; exact “count subseq sum K” is often GFG-style) | - | | |
