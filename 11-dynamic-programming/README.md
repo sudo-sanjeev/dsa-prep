@@ -52,8 +52,8 @@
 
 | #   | Problem                                                  | Difficulty | LeetCode | Status | Last revision | Next revision |
 | --- | -------------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | --- |
-| 1   | Longest common subsequence                               | Hard       | [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | - | | |
-| 2   | Print Longest Common Subsequence                         | Hard       | [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) (reconstruct from DP table to print the actual LCS) | - | | |
+| 1 | Longest common subsequence | Hard | [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | ✓ | 2026-04-20 | 2026-04-26 |
+| 2 | Print Longest Common Subsequence | Hard | [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) (reconstruct from DP table to print the actual LCS) | ✓ | 2026-04-20 | 2026-04-26 |
 | 3   | Longest common substring                                 | Hard       | [718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) (same as LCS but contiguous) | - | | |
 | 4   | Longest palindromic subsequence                          | Hard       | [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | - | | |
 | 5   | Minimum insertions to make string palindrome             | Hard       | [1312. Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | - | | |
