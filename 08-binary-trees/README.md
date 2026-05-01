@@ -37,7 +37,7 @@
 | 8   | Vertical Order Traversal                | Medium     | [987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | - | | |
 | 9   | Top View of BT                          | Medium     | [987. Vertical Order Traversal…](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) (related column ordering; “top view” = first node per vertical line — often GFG / sheet wording) | - | | |
 | 10  | Bottom view of BT                       | Medium     | [987. Vertical Order Traversal…](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) (related; “bottom view” = last node per vertical line — often GFG / sheet wording) | - | | |
-| 11  | Right/Left View of Binary Tree          | Medium     | [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) (left view: mirror / same pattern) | - | | |
+| 11 | Right/Left View of Binary Tree | Medium | [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) (left view: mirror / same pattern) | ✓ | 2026-05-01 | 2026-05-08 |
 | 12  | Symmetric Binary Tree                   | Medium     | [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | - | | |
 
 
