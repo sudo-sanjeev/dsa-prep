@@ -2,7 +2,7 @@
 
 Tracking progress on [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/) — **338** problems across **11** topics.
 
-**Sheet rows solved:** **58** / **338** — same ✓ total as the table below (auto-updated by `add_solution.py` / `sync_progress.py`).
+**Sheet rows solved:** **59** / **338** — same ✓ total as the table below (auto-updated by `add_solution.py` / `sync_progress.py`).
 
 ## How to use
 
@@ -26,10 +26,10 @@ Each topic’s README is a checklist: update **Status** and dates per row. **`py
 | 06 | Heaps | 4 | 17 | [View](./06-heaps/README.md) |
 | 07 | Greedy Algorithms | 3 | 16 | [View](./07-greedy/README.md) |
 | 08 | Binary Trees | 6 | 39 | [View](./08-binary-trees/README.md) |
-| 09 | Binary Search Trees | 2 | 16 | [View](./09-binary-search-trees/README.md) |
+| 09 | Binary Search Trees | 3 | 16 | [View](./09-binary-search-trees/README.md) |
 | 10 | Graphs | 12 | 54 | [View](./10-graphs/README.md) |
 | 11 | Dynamic Programming | 10 | 59 | [View](./11-dynamic-programming/README.md) |
-|    | **Total**           | **58**    | **338** |                                               |
+|    | **Total**           | **59**    | **338** |                                               |
 
 ## Daily top 5 (Cursor)
 
