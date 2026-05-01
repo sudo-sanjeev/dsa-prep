@@ -30,7 +30,7 @@
 | 1   | Maximum Depth in BT                     | Medium     | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | - | | |
 | 2   | Check for balanced binary tree          | Medium     | [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | - | | |
 | 3 | Diameter of Binary Tree | Easy | [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) (sheet groups under Medium; LC tags Easy) | ✓ | 2026-05-01 | 2026-05-15 |
-| 4 | Maximum path sum | Medium | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | ✓ | 2026-04-17 | 2026-04-24 |
+| 4 | Maximum path sum | Medium | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | ✓ | 2026-05-01 | 2026-05-08 |
 | 5   | Check if two trees are identical or not | Medium     | [100. Same Tree](https://leetcode.com/problems/same-tree/) | - | | |
 | 6   | Zig Zag or Spiral Traversal             | Medium     | [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | - | | |
 | 7   | Boundary Traversal                      | Medium     | [545. Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/) | - | | |

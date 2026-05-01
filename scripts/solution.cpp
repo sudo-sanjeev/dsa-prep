@@ -11,25 +11,20 @@
  */
  class Solution {
     public:
-    vector<int> rightSideView(TreeNode* root) {
-        if(!root)return {};
+    int ans=INT_MIN;
 
-        queue<TreeNode*>q;
-        vector<int>ans;
-        q.push(root);
+    int dfs(TreeNode* root) {
+        if(!root)return 0;
 
-        while(!q.empty()) {
-            int n=q.size();
-            int cur=0;
-            for(int i=0;i<n;i++) {
-                auto node=q.front();
-                q.pop();
-                cur=node->val;
-                if(node->left)q.push(node->left);
-                if(node->right)q.push(node->right);
-            }
-            ans.push_back(cur);
-        }
+        int ls=max(0,dfs(root->left));
+        int rs=max(0,dfs(root->right));
+        ans=max(ans,ls+rs+root->val);
+
+        return root->val+max(ls,rs);
+    }
+
+    int maxPathSum(TreeNode* root) {
+        dfs(root);
         return ans;
     }
 };

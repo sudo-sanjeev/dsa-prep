@@ -23,8 +23,8 @@ using namespace std;
 
         int ls=max(0,dfs(root->left));
         int rs=max(0,dfs(root->right));
+        ans=max(ans,ls+rs+root->val);
 
-        ans=max(ans,root->val+ls+rs);
         return root->val+max(ls,rs);
     }
 
