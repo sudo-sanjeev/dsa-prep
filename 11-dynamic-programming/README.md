@@ -82,9 +82,9 @@
 
 | #   | Problem                                                     | Difficulty | LeetCode | Status | Last revision | Next revision |
 | --- | ----------------------------------------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | --- |
-| 1   | Longest Increasing Subsequence                              | Medium     | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | - | | |
-| 2   | Print Longest Increasing Subsequence                        | Medium     | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) (reconstruct from patience / parent pointers) | - | | |
-| 3   | Longest Increasing Subsequence (Binary Search / O(n log n)) | Medium     | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) (patience sorting / binary search optimized) | - | | |
+| 1 | Longest Increasing Subsequence | Medium | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | ✓ | 2026-05-02 | 2026-05-09 |
+| 2 | Print Longest Increasing Subsequence | Medium | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) (reconstruct from patience / parent pointers) | ✓ | 2026-05-02 | 2026-05-09 |
+| 3 | Longest Increasing Subsequence (Binary Search / O(n log n)) | Medium | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) (patience sorting / binary search optimized) | ✓ | 2026-05-02 | 2026-05-09 |
 | 4   | Largest Divisible Subset                                    | Medium     | [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | - | | |
 | 5   | Longest String Chain                                        | Medium     | [1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain/) | - | | |
 | 6   | Longest Bitonic Subsequence                                 | Medium     | [1671. Minimum Number of Removals to Make Mountain Array](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/) (mountain / bitonic structure) | - | | |
