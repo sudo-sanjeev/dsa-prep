@@ -30,7 +30,7 @@
 
 | #   | Problem                                     | Difficulty | LeetCode | Status | Last revision | Next revision |
 | --- | ------------------------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | --- |
-| 1   | Middle of a Linked List [Tortoise & Hare]   | Easy       | [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | - | | |
+| 1 | Middle of a Linked List [Tortoise & Hare] | Easy | [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | ✓ | 2026-05-02 | 2026-05-16 |
 | 2 | Reverse a Linked List [Iterative] | Medium | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | ✓ | 2026-04-01 | 2026-04-08 |
 | 3 | Reverse a LL | Medium | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | ✓ | 2026-04-01 | 2026-04-08 |
 | 4 | Detect a loop in LL | Medium | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | ✓ | 2026-04-02 | 2026-04-09 |
