@@ -25,7 +25,7 @@
 | 2   | Minimum Cost to Connect Sticks                      | Medium     | [1167. Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/) | - | | |
 | 3   | Kth largest element in a stream of running integers | Hard       | [703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | - | | |
 | 4   | Maximum Sum Combination                             | Hard       | [373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) (LC is smallest pairs; “max sum combinations” uses the same heap pattern with max-heap / sorting) | - | | |
-| 5   | Find Median from Data Stream                        | Hard       | [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | - | | |
+| 5 | Find Median from Data Stream | Hard | [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | ✓ | 2026-05-02 | 2026-05-08 |
 | 6 | Top K Frequent Elements | Medium | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) (sheet lists under Hard; LC tags Medium) | ✓ | 2026-04-02 | 2026-04-09 |
 
 

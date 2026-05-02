@@ -1,3 +1,8 @@
+#include <vector>
+#include <queue>
+
+using namespace std;
+
 class MedianFinder {
     public:
     priority_queue<int> left; // max heap
