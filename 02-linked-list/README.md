@@ -62,7 +62,7 @@
 
 | #   | Problem                                 | Difficulty | LeetCode | Status | Last revision | Next revision |
 | --- | --------------------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------- | --- | --- | --- |
-| 1   | Reverse LL in group of given size K     | Hard       | [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | - | | |
+| 1 | Reverse LL in group of given size K | Hard | [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | ✓ | 2026-05-02 | 2026-05-08 |
 | 2   | Rotate a LL                             | Hard       | [61. Rotate List](https://leetcode.com/problems/rotate-list/) | - | | |
 | 3   | Flattening of LL                        | Hard       | [430. Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | - | | |
 | 4   | Clone a LL with random and next pointer | Hard       | [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | - | | |
