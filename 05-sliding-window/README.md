@@ -27,7 +27,7 @@ Per-problem difficulties below match the sheet tags (LeetCode’s own tags may d
 | 1   | Longest Substring With At Most K Distinct Characters | Hard       | [340. Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)         | -      |               |               |
 | 2   | Subarrays with K Different Integers                  | Medium     | [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) (sheet groups under Hard; LC tags Medium) | -      |               |               |
 | 3   | Count substrings with exactly K distinct characters  | Hard       | [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) (exactly K = atMost(K) − atMost(K−1))     | -      |               |               |
-| 4   | Minimum Window Substring                             | Hard       | [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)                                                                  | -      |               |               |
+| 4 | Minimum Window Substring | Hard | [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | ✓ | 2026-05-02 | 2026-05-08 |
 | 5   | Minimum Window Subsequence                           | Hard       | [727. Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/)                                                             | -      |               |               |
 
 
