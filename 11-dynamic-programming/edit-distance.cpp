@@ -1,3 +1,9 @@
+#include <vector>
+#include <string>
+#include <algorithm>
+
+using namespace std;
+
 class Solution {
     public:
     int dfs(string& a, string& b, int i, int j, vector<vector<int>>& dp) {

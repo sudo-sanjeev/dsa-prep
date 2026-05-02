@@ -60,7 +60,7 @@
 | 6   | Minimum insertions or deletions to convert string A to B | Hard       | [583. Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/) | - | | |
 | 7   | Shortest common supersequence                            | Hard       | [1092. Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/) | - | | |
 | 8   | Distinct subsequences                                    | Hard       | [115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | - | | |
-| 9   | Edit distance                                            | Hard       | [72. Edit Distance](https://leetcode.com/problems/edit-distance/) | - | | |
+| 9 | Edit distance | Hard | [72. Edit Distance](https://leetcode.com/problems/edit-distance/) | ✓ | 2026-05-02 | 2026-05-08 |
 | 10  | Wildcard matching                                        | Hard       | [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | - | | |
 
 
