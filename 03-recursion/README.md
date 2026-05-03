@@ -44,7 +44,7 @@
 | #   | Problem                  | Difficulty | LeetCode | Status | Last revision | Next revision |
 | --- | ------------------------ | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | --- |
 | 1   | Palindrome partitioning  | Hard       | [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | - | | |
-| 2   | Word Search              | Hard       | [79. Word Search](https://leetcode.com/problems/word-search/) | - | | |
+| 2 | Word Search | Hard | [79. Word Search](https://leetcode.com/problems/word-search/) | ✓ | 2026-05-03 | 2026-05-09 |
 | 3   | N Queen                  | Hard       | [51. N-Queens](https://leetcode.com/problems/n-queens/) | - | | |
 | 4   | Rat in a Maze            | Hard       | [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) (grid backtracking; classic “rat maze” with all paths is often GFG / sheet) | - | | |
 | 5   | Word Break               | Medium     | [139. Word Break](https://leetcode.com/problems/word-break/) | - | | |
